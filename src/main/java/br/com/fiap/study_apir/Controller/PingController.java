@@ -1,4 +1,4 @@
-package br.com.fiap.study_apir;
+package br.com.fiap.study_apir.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class PingController {
     @GetMapping("ping")
-    public String ping() {   
+    public String ping() {
         return "pong";
     }
 
@@ -19,9 +19,11 @@ public class PingController {
 
     }
 
-    @GetMapping("rota2")
-    public String rota2() {
-        return "rota2";
+    
+
+    @GetMapping("sasuke")
+    public String sasuke() {
+        return "naruto";
 
     }
 }
