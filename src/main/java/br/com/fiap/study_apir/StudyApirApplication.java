@@ -10,4 +10,5 @@ public class StudyApirApplication {
 		SpringApplication.run(StudyApirApplication.class, args);
 	}
 
+
 }
